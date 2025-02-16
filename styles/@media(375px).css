@@ -1,0 +1,136 @@
+@media screen and (max-width: 375px) {
+  nav ul {
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 100%;
+    backdrop-filter: blur(7px);
+    background: rgba(0, 0, 0, 0.685);
+    justify-content: center;
+    display: none;
+  }
+
+  .dropdown {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    z-index: 80;
+  }
+
+  .cancle.dropdown :nth-child(1) {
+    background-color: red;
+    rotate: 135deg;
+    transform: translate(10px);
+    height: 17%;
+  }
+  .cancle.dropdown :nth-child(2) {
+    background-color: orange;
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  .cancle.dropdown :nth-child(3) {
+    height: 17%;
+    rotate: -135deg;
+    transform: translate(12px);
+    background-color: red;
+  }
+
+  nav ul li {
+    height: 10%;
+    width: 80%;
+  }
+
+  nav ul li a {
+    color: orange;
+    &:hover {
+      cursor: pointer;
+      transform: none;
+      box-shadow: none;
+      transition: 0.4s linear;
+    }
+  }
+  nav ul li a:focus {
+    outline: 1px solid orange;
+  }
+  .user_comment_card {
+    width: 28%;
+    box-shadow: 0 17px 37px -28px;
+  }
+
+  .container {
+    width: 100%;
+    border-radius: none;
+    p {
+      display: none;
+    }
+  }
+
+  .cta {
+    background: orange;
+    transition: 0.4s linear;
+    color: black;
+    border: none;
+  }
+
+  .what_we_do_intro {
+    padding: 20px;
+    p {
+      font-size: 1rem;
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .what_our_users_says_section {
+    h2 {
+      padding: 2px 16px;
+      z-index: 30;
+      position: absolute;
+      top: 27px;
+      background: white;
+      border-radius: 10px 0;
+      border: 1px solid gray;
+      font-size: 1.5em;
+    }
+  }
+  .what_our_users_says {
+    background: rgba(0, 0, 0, 0.226);
+    margin: 50px;
+  }
+
+  .quote_top,
+  .quote_bottom {
+    font-size: 6rem;
+  }
+
+  .quote_bottom {
+    right: 7%;
+    bottom: 25%;
+  }
+
+  .quote_top {
+    top: -7%;
+    left: 4%;
+  }
+
+  .slide_left,
+  .slide_right {
+    bottom: 12%;
+    &:hover {
+      border: 0.5px solid;
+      scale: 1;
+      cursor: pointer;
+      transform: translateY(0);
+      box-shadow: none;
+    }
+  }
+
+  .our_team {
+    margin: 30px auto;
+    padding: 10px;
+  }
+}

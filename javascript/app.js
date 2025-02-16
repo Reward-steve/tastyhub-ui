@@ -5,6 +5,9 @@ const service = document.querySelector(".what_we_do_cards");
 const team = document.querySelector(".team_cards");
 const content = document.querySelector(".content");
 const user = document.querySelector(".what_our_users_says");
+const nav = document.querySelector("nav ul");
+const dropdown = document.querySelector(".dropdown");
+const dropdownLine = document.querySelector(".line");
 
 //What we do
 const createServiceCard = mapServices.map((el) => {
@@ -50,12 +53,9 @@ const createsliderCard = what_our_users_say.map((el) => {
   `;
 });
 
-content.innerHTML = `
-${createsliderCard.join("")}     
-`;
+content.innerHTML = createsliderCard.join("");
 
 let num = 0;
-
 document.addEventListener("click", (e) => {
   if (e.target.className === "slide_right") {
     num++;
@@ -67,6 +67,21 @@ document.addEventListener("click", (e) => {
   if (e.target.className === "slide_left") {
     num--;
     content.style.transform = `translateX(-${100 * num}%)`;
-    num <= 0 ? (num = what_our_users_say.length - 1) : (num = num);
+    num <= 0 ? (num = what_our_users_say.length) : (num = num);
   }
 });
+
+let isDisplayed = false;
+const handleDropdown = () => {
+  isDisplayed = !isDisplayed;
+  isDisplayed
+    ? (dropdown.classList.add("cancle"),
+      (dropdown.style.position = "fixed"),
+      (nav.style.display = "flex"))
+    : (dropdown.classList.remove("cancle"),
+      (dropdown.style.position = "absolute"),
+      (nav.style.display = "none"));
+};
+
+dropdown.addEventListener("click", handleDropdown);
+dropdownLine.addEventListener("click", handleDropdown);

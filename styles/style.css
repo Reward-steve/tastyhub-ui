@@ -3,7 +3,6 @@ body {
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
   background-color: gainsboro;
-  /* padding: 5px 30px; */
 }
 
 nav {
@@ -19,6 +18,23 @@ nav {
   transition: 0.4s linear;
   color: black;
   border: none;
+}
+
+.dropdown {
+  width: 40px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+.line {
+  width: 80%;
+  height: 15%;
+  background: black;
+  border-radius: 10px;
+  transition: 1s;
 }
 
 nav ul {
@@ -235,6 +251,7 @@ header {
   flex-direction: column;
   position: relative;
   transition: 0.4s linear;
+  overflow: hidden;
   h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -251,7 +268,7 @@ header {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.418);
   flex-wrap: nowrap;
-  overflow-x: scroll;
+  overflow-x: hidden;
   position: relative;
 }
 
@@ -327,10 +344,10 @@ header {
   width: 500%;
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  transition: 1s linear;
+  transition: 0.5s linear;
 }
 
 .slide_left,
