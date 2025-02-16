@@ -3,7 +3,8 @@ import { what_our_users_say, what_we_do_cards } from "./servicesList.js";
 
 const service = document.querySelector(".what_we_do_cards");
 const team = document.querySelector(".team_cards");
-const users = document.querySelector(".what_our_users_says");
+const content = document.querySelector(".content");
+const user = document.querySelector(".what_our_users_says");
 
 //What we do
 const createServiceCard = mapServices.map((el) => {
@@ -33,9 +34,9 @@ team.innerHTML = createTeamCard.join("");
 // What our users say
 const createsliderCard = what_our_users_say.map((el) => {
   return `
-<div class="content">
-      <div class="user_comment_card">
-          <div class="quote_top">‟</div>
+  <div class="user_comment_holder">
+    <div class="user_comment_card">
+        <div class="quote_top">‟</div>
           <div class="user_img">
             <img src=${el.img} loading="lazy" alt=${el.userName} />
             <h3>${el.userName}</h3>
@@ -44,12 +45,28 @@ const createsliderCard = what_our_users_say.map((el) => {
           ${el.message}
           </p>
       <div class="quote_bottom">„</div>
+    </div>
   </div>
-</div> 
   `;
 });
 
-users.innerHTML = `
-<div class="slide_left">←</div>
+content.innerHTML = `
 ${createsliderCard.join("")}     
-<div class="slide_right">→</div>`;
+`;
+
+let num = 0;
+
+document.addEventListener("click", (e) => {
+  if (e.target.className === "slide_right") {
+    num++;
+    num < what_our_users_say.length ? num : (num = 0);
+    content.style.transform = `translateX(-${100 * num}%)`;
+  }
+});
+document.addEventListener("click", (e) => {
+  if (e.target.className === "slide_left") {
+    num--;
+    content.style.transform = `translateX(-${100 * num}%)`;
+    num <= 0 ? (num = what_our_users_say.length - 1) : (num = num);
+  }
+});
