@@ -19,42 +19,35 @@ export const mapServices = [
 export const ourCookingTeam = [
   {
     img: "asset/teamImages/chef-1.jpg",
-    name: "Chef XYZ",
     role: "Master Chef",
   },
 
   {
     img: "asset/teamImages/chef-2.jpeg",
-    name: "Chef ABC",
     role: "Assistant Chef",
   },
 
   {
     img: "asset/teamImages/chef-3.jpg",
-    name: "Chef DEF",
     role: "Head Chef",
   },
 
   {
     img: "asset/teamImages/chef-4.jpg",
-    name: "Chef GHI",
     role: "Head Chef",
   },
 
   {
     img: "asset/teamImages/chef-5.jpg",
-    name: "Chef JKL",
     role: "Assistant Chef",
   },
 
   {
     img: "asset/teamImages/chef-6.jpeg",
-    name: "Chef MNO",
     role: "Master Chef",
   },
   {
     img: "asset/teamImages/1.jpg",
-    name: "Chef MNO",
     role: "Master Chef",
   },
 ];

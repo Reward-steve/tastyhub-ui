@@ -11,6 +11,7 @@
     background: rgba(0, 0, 0, 0.685);
     justify-content: center;
     display: none;
+    transition: 0.4s linear;
   }
 
   .dropdown {
@@ -132,5 +133,6 @@
   .our_team {
     margin: 30px auto;
     padding: 10px;
+    text-align: center;
   }
 }

@@ -25,9 +25,8 @@ const createTeamCard = ourCookingTeam.map((el) => {
   return `
   <div class="team_member">
   <div style="background-image:url(${el.img})" >
-   <h3>${el.name}</h3>
-   <p>${el.role}</p>
   </div>
+  <p style="width:100%">${el.role}</p>
   </div>
   `;
 });
@@ -77,10 +76,10 @@ const handleDropdown = () => {
   isDisplayed
     ? (dropdown.classList.add("cancle"),
       (dropdown.style.position = "fixed"),
-      (nav.style.display = "flex"))
+      (nav.style.opacity = "1"))
     : (dropdown.classList.remove("cancle"),
       (dropdown.style.position = "absolute"),
-      (nav.style.display = "none"));
+      (nav.style.opacity = "0"));
 };
 
 dropdown.addEventListener("click", handleDropdown);
