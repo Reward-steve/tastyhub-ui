@@ -1,43 +1,43 @@
 export const mapServices = [
   {
-    img: "asset/img/package-delivery.png",
+    img: "asset/img/What_we_do/package-delivery.png",
     title: "Fast Delivery 🚀",
     description: "We deliver 100% of your orders within 24 hours.",
   },
   {
-    img: "asset/img/catering.png",
+    img: "asset/img/What_we_do/catering.png",
     title: "Catering Services 🎉",
     description: "Perfect meals for your events, big or small.",
   },
   {
-    img: "asset/img/online-order.png",
+    img: "asset/img/What_we_do/online-order.png",
     title: "Online Ordering 📱",
     description: "Easily place your order from our website or app.",
   },
   {
-    img: "asset/img/online-order.png",
+    img: "asset/img/What_we_do/dinnin.png",
     title: "Dine-In Experience 🍽️",
     description: "Enjoy a cozy atmosphere with delicious meals",
   },
 
   {
-    img: "asset/img/online-order.png",
+    img: "asset/img/What_we_do/delivery.png",
     title: "Take-Out & Delivery 🚚",
     description: "Experience our convenient take-out and delivery options",
   },
 
   {
-    img: "asset/img/online-order.png",
+    img: "asset/img/What_we_do/bakery.png",
     title: "Kitchen & Bakery ",
     description: "We provide a tailored kitchen and bakery experience",
   },
   {
-    img: "asset/img/online-order.png",
+    img: "asset/img/What_we_do/gift.png",
     title: "Loyalty Programs 👑",
     description: "Earn rewards and exclusive offers for your loyalty program",
   },
   {
-    img: "asset/img/online-order.png",
+    img: "asset/img/What_we_do/plan.png",
     title: "Event Planning 🗓️",
     description: "Help you plan your event with our event planning services",
   },
@@ -45,42 +45,42 @@ export const mapServices = [
 
 export const ourCookingTeam = [
   {
-    Img: "asset/teamImages/chef-1.jpg",
+    Img: "asset/img/teamImages/chef-1.jpg",
     Name: "Mary Christopher",
     Role: "Food preparation",
   },
 
   {
-    Img: "asset/teamImages/chef-2.jpeg",
+    Img: "asset/img/teamImages/chef-2.jpeg",
     Name: "Robato Chalos",
     Role: "Food Designer",
   },
 
   {
-    Img: "asset/teamImages/chef-3.jpg",
+    Img: "asset/img/teamImages/chef-3.jpg",
     Name: "Charlse Willson",
     Role: "Operations Manager",
   },
 
   {
-    Img: "asset/teamImages/chef-4.jpg",
+    Img: "asset/img/teamImages/chef-4.jpg",
     Name: "Chef Lee",
     Role: "Waiter/Delivery Driver",
   },
 
   {
-    Img: "asset/teamImages/chef-5.jpg",
+    Img: "asset/img/teamImages/chef-5.jpg",
     Name: "Jayme Lamister",
     Role: "Main business manager ",
   },
 
   {
-    Img: "asset/teamImages/chef-6.jpeg",
+    Img: "asset/img/teamImages/chef-6.jpeg",
     Name: "Emmilia Clark",
     Role: "Operations Manager",
   },
   {
-    Img: "asset/teamImages/1.jpg",
+    Img: "asset/img/teamImages/1.jpg",
     Name: "Elder Stack",
     Role: "Menu management",
   },
@@ -153,17 +153,17 @@ export const discover_our_menu = [
 
 export const favourite_list = [
   {
-    img: "",
+    img: "/asset/img/Menu/Grilled-Chicken-Pasta.jpg",
     context:
       "🍝 Grilled Chicken Pasta – Juicy grilled chicken over creamy Alfredo pasta.",
   },
   {
-    img: "",
+    img: "/asset/img/Menu/Double-Cheeseburger.webp",
     context:
       "🍔 Double Cheeseburger – Two beef patties, melted cheese, and fresh veggies in a soft bun.",
   },
   {
-    img: "",
+    img: "/asset/img/Menu/tiramisu.jpg",
     context: "🍰 Classic Tiramisu – A rich and creamy Italian coffee dessert.",
   },
 ];

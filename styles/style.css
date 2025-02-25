@@ -76,7 +76,6 @@ nav #logo {
 nav #logo img {
   width: 100%;
   height: 100%;
-  border-radius: 100%;
 }
 
 nav ul li {
@@ -227,13 +226,12 @@ header {
 }
 
 .what_we_do .service img {
-  width: 50%;
-  height: 50%;
+  width: 40%;
   height: auto;
 }
 
 .what_we_do .service h3 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 500;
   color: orange;
 }
