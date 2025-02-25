@@ -1,0 +1,228 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("/asset/img/3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+.title h1 {
+  color: orange;
+}
+
+.details {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+/* Container */
+main {
+  height: auto;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+/* Categories List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul h1 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+ul li {
+  font-size: 1.1rem;
+  padding: 8px 0;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.customer_fav_section,
+.intro_section {
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid gainsboro; */
+}
+
+/* Customer Favorites */
+.customer_fav_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.customer_fav_section h1 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.customer_fav_card {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.customer_fav_card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.customer_fav_card .img_holder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #fff;
+}
+
+.customer_fav_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.customer_fav_card p {
+  font-size: 1rem;
+  flex: 1;
+  color: #ddd;
+  text-align: left;
+}
+
+#fav_list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Call to Action */
+b {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #ffcc00;
+}
+
+b a {
+  color: #ff4500;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+b a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: orange;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: darkorange;
+}
+
+/* Responsive Design */
+@media (max-width: 884px) {
+  main {
+    padding: 30px 0;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .details {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .customer_fav_section h1,
+  header h1,
+  ul h1 {
+    font-size: 1.6rem;
+    margin: 20px;
+  }
+
+  .customer_fav_section,
+  .intro_section {
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid gainsboro; */
+  }
+
+  ul li {
+    /* text-align: center; */
+    padding: 5px 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .customer_fav_card {
+    flex-direction: column;
+  }
+  ul li {
+    flex-direction: column;
+    display: flex;
+    font-size: 1em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+  b {
+    font-size: 1em;
+  }
+
+  .customer_fav_section h1,
+  header h1,
+  ul h1 {
+    font-size: 1.4rem;
+    margin: 20px 0;
+  }
+}
