@@ -1,4 +1,20 @@
-@media screen and (max-width: 375px) {
+@media (max-width: 884px) {
+  nav ul {
+    width: 70%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container h1 {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
   nav ul {
     flex-direction: column;
     position: fixed;
@@ -8,9 +24,8 @@
     z-index: 10;
     width: 100%;
     backdrop-filter: blur(7px);
-    background: rgba(0, 0, 0, 0.685);
+    background: rgba(0, 0, 0, 0.781);
     justify-content: center;
-    /* display: none; */
     opacity: 0;
     transition: 0.4s linear;
   }
@@ -23,10 +38,8 @@
     z-index: 80;
   }
 
-  .our_team {
-    p {
-      margin-bottom: 0;
-    }
+  .cta {
+    width: 50%;
   }
 
   .cancle.dropdown :nth-child(1) {
@@ -78,17 +91,10 @@
     }
   }
 
-  .cta {
-    background: orange;
-    transition: 0.4s linear;
-    color: black;
-    border: none;
-  }
-
   .what_we_do_intro {
     padding: 20px;
     p {
-      font-size: 1rem;
+      font-size: 1.2rem;
       text-align: center;
       margin: 0;
     }
@@ -109,11 +115,6 @@
     }
   }
 
-  .team_member {
-    background-color: rgb(52 51 49);
-    color: white;
-  }
-
   .what_we_do .service h3 {
     font-size: 1.5rem;
   }
@@ -123,14 +124,13 @@
   }
 
   .what_our_users_says_section {
+    transform: translateY(-80px);
     h2 {
       padding: 2px 16px;
       z-index: 1;
       position: absolute;
       top: 27px;
-      background: orange;
-      border-radius: 10px 0;
-      border: 1px solid #343331;
+      border-radius: 10px;
       font-size: 1.5em;
     }
   }
@@ -140,12 +140,7 @@
   }
 
   .what_our_users_says {
-    background-color: rgb(52 51 49);
     margin: 50px;
-  }
-
-  .what_we_do .service {
-    background-color: rgb(52 51 49);
   }
 
   .quote_top,
@@ -186,16 +181,69 @@
     margin: 30px auto;
     padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p {
+      margin-bottom: 0;
+      width: 90%;
+    }
   }
 
   .footer-container {
     flex-direction: column;
   }
 
-  .footer-logo h2,
-  .footer-links h3,
-  .footer-contact h3,
-  .footer-social h3 {
-    color: orange;
+  .contact-form-container {
+    animation: fill 1s 1 linear;
+  }
+
+  .contact-form-container form {
+    width: 90%;
+  }
+
+  @keyframes fill {
+    from {
+      height: 0;
+    }
+    to {
+      height: 600px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .user_comment_card {
+    flex-direction: column;
+    width: 55%;
+    p {
+      padding: 0;
+    }
+  }
+
+  .user_img {
+    height: 60%;
+    width: 80%;
+    .slider_img {
+      width: 50%;
+      height: 90%;
+    }
+    h3 {
+      position: relative;
+      height: 10%;
+      width: 100%;
+      padding: 16px 0;
+    }
+  }
+
+  .quote_top,
+  .quote_bottom {
+    font-size: 4rem;
+  }
+
+  .quote_bottom {
+    right: 3%;
+    bottom: 15%;
   }
 }
