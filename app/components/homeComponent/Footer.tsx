@@ -1,5 +1,5 @@
 export const Footer = () => (
-  <footer className="backdrop:blur-2xl bg-rgba(0, 0, 0, 0.8) text-white py-[80px] text-center">
+  <footer className="backdrop:blur-2xl bg-rgba(0, 0, 0, 0.8) text-white py-[80px] text-center w-full">
     <div className="flex flex-wrap justify-around items-center max-w-[1200px] m-auto">
       <div className="footer-logo">
         <h2 className="text-2xl mb-5 text-orange-500">TastyHub</h2>

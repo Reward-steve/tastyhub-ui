@@ -1,3 +1,6 @@
+import { ourTeam } from "../../data/data";
+import Image from "next/image";
+
 export const TeamSection = () => (
   <section className="w-full h-auto my-5 p-12.5 obs">
     <h2 className="text-2xl text-orange-500">Meet Our Team 👨‍🍳👩‍🍳</h2>
@@ -7,6 +10,16 @@ export const TeamSection = () => (
       experience. From crafting mouthwatering dishes to delivering top-notch
       service, we take pride in what we do.
     </p>
-    <div className="flex justify-around items-center flex-wrap gap-8 p-5 rounded-xl"></div>
+    <div className="flex justify-around items-center flex-wrap gap-8 p-5 rounded-xl">
+      {ourTeam.map((el, id) => {
+        return (
+          <div key={id} className="team_member">
+            <Image src={el.Img} alt={`image_${id}`}></Image>
+            <p className="w-full">{el.Name}</p>
+            <p className="w-full">{el.Role}</p>
+          </div>
+        );
+      })}
+    </div>
   </section>
 );

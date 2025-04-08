@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Header = () => (
   <header className="w-full h-screen flex items-center justify-center bg-cover bg-center relative">
     <section className="w-[90%] rounded-xl relative bg-#000">
@@ -11,9 +13,9 @@ export const Header = () => (
         ordering online, we guarantee great flavors and fast service.
       </p>
       <div className="cta_holder">
-        <a href="/Menu.html" className="cta">
+        <Link href="/menu" className="cta">
           Discover Our Menu
-        </a>
+        </Link>
       </div>
     </section>
   </header>

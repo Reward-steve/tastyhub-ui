@@ -1,86 +1,109 @@
-export const mapServices = [
+import serviceImg1 from "../images/What_we_do/bakery.png";
+import serviceImg2 from "../images/What_we_do/catering.png";
+import serviceImg3 from "../images/What_we_do/delivery.png";
+import serviceImg4 from "../images/What_we_do/dinnin.png";
+import serviceImg5 from "../images/What_we_do/gift.png";
+import serviceImg6 from "../images/What_we_do/online-order.png";
+import serviceImg7 from "../images/What_we_do/package-delivery.png";
+import serviceImg8 from "../images/What_we_do/plan.png";
+
+import food1 from "../images/Menu/Grilled-Chicken-Pasta.jpg";
+import food2 from "../images/Menu/Double-Cheeseburger.webp";
+import food3 from "../images/Menu/tiramisu.jpg";
+
+import testimonialImage1 from "../images/profile.jpg";
+
+import chefImage1 from "../images/teamImages/chef-1.jpg";
+import chefImage2 from "../images/teamImages/chef-2.jpeg";
+import chefImage3 from "../images/teamImages/chef-3.jpg";
+import chefImage4 from "../images/teamImages/chef-4.jpg";
+import chefImage5 from "../images/teamImages/chef-5.jpg";
+import chefImage6 from "../images/teamImages/chef-6.jpeg";
+import chefImage7 from "../images/teamImages/1.jpg";
+
+export const services = [
   {
-    img: "asset/img/What_we_do/package-delivery.png",
+    img: serviceImg7,
     title: "Fast Delivery 🚀",
     description: "We deliver 100% of your orders within 24 hours.",
   },
   {
-    img: "asset/img/What_we_do/catering.png",
+    img: serviceImg2,
     title: "Catering Services 🎉",
     description: "Perfect meals for your events, big or small.",
   },
   {
-    img: "asset/img/What_we_do/online-order.png",
+    img: serviceImg6,
     title: "Online Ordering 📱",
     description: "Easily place your order from our website or app.",
   },
   {
-    img: "asset/img/What_we_do/dinnin.png",
+    img: serviceImg4,
     title: "Dine-In Experience 🍽️",
     description: "Enjoy a cozy atmosphere with delicious meals",
   },
 
   {
-    img: "asset/img/What_we_do/delivery.png",
+    img: serviceImg3,
     title: "Take-Out & Delivery 🚚",
     description: "Experience our convenient take-out and delivery options",
   },
 
   {
-    img: "asset/img/What_we_do/bakery.png",
+    img: serviceImg1,
     title: "Kitchen & Bakery ",
     description: "We provide a tailored kitchen and bakery experience",
   },
   {
-    img: "asset/img/What_we_do/gift.png",
+    img: serviceImg5,
     title: "Loyalty Programs 👑",
     description: "Earn rewards and exclusive offers for your loyalty program",
   },
   {
-    img: "asset/img/What_we_do/plan.png",
+    img: serviceImg8,
     title: "Event Planning 🗓️",
     description: "Help you plan your event with our event planning services",
   },
 ];
 
-export const ourCookingTeam = [
+export const ourTeam = [
   {
-    Img: "asset/img/teamImages/chef-1.jpg",
+    Img: chefImage7,
     Name: "Mary Christopher",
     Role: "Food preparation",
   },
 
   {
-    Img: "asset/img/teamImages/chef-2.jpeg",
+    Img: chefImage1,
     Name: "Robato Chalos",
     Role: "Food Designer",
   },
 
   {
-    Img: "asset/img/teamImages/chef-3.jpg",
+    Img: chefImage2,
     Name: "Charlse Willson",
     Role: "Operations Manager",
   },
 
   {
-    Img: "asset/img/teamImages/chef-4.jpg",
+    Img: chefImage3,
     Name: "Chef Lee",
     Role: "Waiter/Delivery Driver",
   },
 
   {
-    Img: "asset/img/teamImages/chef-5.jpg",
+    Img: chefImage4,
     Name: "Jayme Lamister",
     Role: "Main business manager ",
   },
 
   {
-    Img: "asset/img/teamImages/chef-6.jpeg",
+    Img: chefImage5,
     Name: "Emmilia Clark",
     Role: "Operations Manager",
   },
   {
-    Img: "asset/img/teamImages/1.jpg",
+    Img: chefImage6,
     Name: "Elder Stack",
     Role: "Menu management",
   },
@@ -118,7 +141,7 @@ export const what_our_users_say = [
       "Perfect spot for a family dinner. The menu has something for everyone, and the quality is top-notch! 🍔🍷",
   },
   {
-    img: "./asset/img/profile.jpg",
+    img: testimonialImage1,
     userName: "Reward Stephen",
     message: "Approved by the Author and founder Himself 😎🧑‍💻",
   },
@@ -153,17 +176,17 @@ export const discover_our_menu = [
 
 export const favourite_list = [
   {
-    img: "/asset/img/Menu/Grilled-Chicken-Pasta.jpg",
+    img: food1,
     context:
       "🍝 Grilled Chicken Pasta – Juicy grilled chicken over creamy Alfredo pasta.",
   },
   {
-    img: "/asset/img/Menu/Double-Cheeseburger.webp",
+    img: food2,
     context:
       "🍔 Double Cheeseburger – Two beef patties, melted cheese, and fresh veggies in a soft bun.",
   },
   {
-    img: "/asset/img/Menu/tiramisu.jpg",
+    img: food3,
     context: "🍰 Classic Tiramisu – A rich and creamy Italian coffee dessert.",
   },
 ];

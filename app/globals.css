@@ -1,5 +1,8 @@
 * {
   scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scroll-snap-type: inline;
+  scroll-snap-align: center;
 }
 
 @import "tailwindcss";
