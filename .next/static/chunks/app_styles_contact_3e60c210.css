@@ -1,0 +1,187 @@
+/* [project]/app/styles/contact.css [app-client] (css) */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("/asset/img/3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.getintouch-container {
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: #000c;
+  backdrop-filter: blur(7px);
+  border-radius: 8px;
+}
+
+.getintouch_intro_section {
+  flex: 1;
+  min-width: 300px;
+  color: #fff;
+  text-align: center;
+}
+
+.getintouch_intro_section h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: orange;
+}
+
+.getintouch_intro_section p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.getintouch_intro_section .links {
+  display: inline-block;
+  background: orange;
+  color: #000;
+  padding: 12px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background .3s ease-in-out;
+}
+
+.getintouch_intro_section a:hover {
+  background: #ff8c00;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.social-media {
+  margin-top: 15px;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color .3s ease-in-out;
+}
+
+.social-media a:hover {
+  color: #fff;
+}
+
+.contact-form-container {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.contact-form-container h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group {
+  width: 80%;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+label {
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  color: #fff;
+  background: #00000080;
+  border: 1px solid gray;
+  transition: border .3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid orange;
+}
+
+button {
+  background: orange;
+  color: #000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+  transition: background .3s ease-in-out;
+}
+
+button:hover {
+  background: #ff8c00;
+}
+
+@media (width <= 768px) {
+  .getintouch-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}
+
+@media (width <= 360px) {
+  .contact-form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .getintouch-container {
+    width: 100%;
+    padding: 10px 10px 30px;
+  }
+
+  .getintouch_intro_section, .contact-form-container {
+    width: 100%;
+  }
+
+  #contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input, textarea {
+    width: 90%;
+  }
+}
+
+
+/*# sourceMappingURL=app_styles_contact_3e60c210.css.map*/
