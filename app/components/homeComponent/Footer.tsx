@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Footer = () => (
   <footer className="backdrop:blur-2xl bg-rgba(0, 0, 0, 0.8) text-white py-[80px] text-center w-full">
     <div className="flex flex-wrap justify-around items-center max-w-[1200px] m-auto">
@@ -8,14 +10,14 @@ export const Footer = () => (
       <div className="footer-links">
         <h2 className="text-orange-500">Quick Links</h2>
         <ul className="list-none p-0">
-          {["Home", "Menu", "About Us", "Contact"].map((link, index) => (
+          {["home", "menu", "about", "contact"].map((link, index) => (
             <li key={index} className="my-2">
-              <a
-                href={link === "Home" ? "#" : `/${link.replace(" ", "")}.html`}
+              <Link
+                href={link === "home" ? "/" : `/${link}`}
                 className="hover:text-orange-500"
               >
                 {link}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
