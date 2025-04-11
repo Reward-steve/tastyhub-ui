@@ -1,5 +1,6 @@
 {
   "pages": {
+<<<<<<< HEAD
     "/_not-found/page": [
       "static/chunks/node_modules_next_dist_1a6ee436._.js",
       "static/chunks/app_favicon_ico_mjs_1579f9cb._.js",
@@ -44,6 +45,17 @@
       "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
       "static/chunks/_e69f0d32._.js",
       "static/chunks/_be317ff2._.js"
+=======
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/layout.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+>>>>>>> main
     ]
   }
 }

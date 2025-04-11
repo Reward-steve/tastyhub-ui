@@ -1,40 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-  scrollbar-width: thin;
-  scroll-behavior: smooth;
-}
-
->>>>>>> 930852e (updated website)
-=======
->>>>>>> 4bd0d08 (contact page)
 body {
   font-size: 16px;
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
   background-color: #343331;
-=======
-  background-color: gainsboro;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  padding: 5px 30px;
->>>>>>> 930852e (updated website)
-=======
-  /* padding: 5px 30px; */
->>>>>>> 4bd0d08 (contact page)
-=======
->>>>>>> c60fe74 (media-query)
-=======
-  background-color: #343331;
->>>>>>> 10da906 (updated-website)
 }
 
 nav {
@@ -43,10 +11,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 10da906 (updated-website)
   background: rgba(0, 0, 0, 0.8);
   border-bottom: 1px solid #ffa50094;
 }
@@ -70,7 +34,6 @@ nav {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-<<<<<<< HEAD
 }
 
 .cta:hover {
@@ -108,61 +71,11 @@ nav #logo {
   width: 70px;
   height: 70px;
   margin-left: 10px;
-=======
-=======
->>>>>>> 10da906 (updated-website)
-}
-
-.cta:hover {
-  color: black;
-  background: orange;
-  transition: color 0.3s linear;
-}
-
-.dropdown {
-  width: 40px;
-  height: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  display: none;
-}
-.line {
-  width: 80%;
-  height: 15%;
-  background: orange;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-nav ul {
-  width: 40%;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-nav #logo {
-<<<<<<< HEAD
-  width: 7%;
-  height: 90%;
->>>>>>> 930852e (updated website)
-=======
-  width: 70px;
-  height: 70px;
-  margin-left: 10px;
->>>>>>> 4bd0d08 (contact page)
 }
 
 nav #logo img {
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2df96a5 (updated-website)
 }
 
 nav ul li {
@@ -187,55 +100,6 @@ nav ul li {
       scale: 1.2;
       color: white;
       transition: 0.3s linear;
-=======
-  border-radius: 100%;
-}
-
-nav ul li {
-  width: 20%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  a {
-    color: gainsboro;
-    text-decoration: none;
-    font-size: large;
-    line-height: 5;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 0 5px 5px;
-    &:hover {
-      cursor: pointer;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      background-color: rgba(0, 0, 0, 0.473);
-      transition: color 0.3s linear;
->>>>>>> 930852e (updated website)
-=======
-      border-bottom: 1px solid;
-      transition: border-bottom 0.3s linear;
->>>>>>> a23e5f4 (updated website)
-=======
-      border-bottom: 10px solid rgba(0, 0, 0, 0.178);
-
-      transition: border-bottom 0.3s ease-in-out;
->>>>>>> 4bd0d08 (contact page)
-=======
-      transform: translateY(-10px);
-      box-shadow: 0px 36px 50px -18px;
-      transition: 0.4s linear;
->>>>>>> 88aa086 (slider)
-=======
-      scale: 1.2;
-      color: white;
-      transition: 0.3s linear;
->>>>>>> 10da906 (updated-website)
     }
   }
 }
@@ -244,28 +108,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
   padding: 80px 20px;
   text-align: center;
   height: auto;
-=======
-  padding: 20px;
-  text-align: center;
-  height: 80vh;
->>>>>>> 930852e (updated website)
-=======
-  padding: 80px 20px;
-  text-align: center;
-  height: auto;
->>>>>>> a23e5f4 (updated website)
   background-image: url("/asset/img/3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
   border-bottom: 1px solid #ffa50094;
 }
 
@@ -277,26 +127,6 @@ header {
   backdrop-filter: blur(7px);
   position: relative;
   background: rgba(0, 0, 0, 0.8);
-=======
-=======
-  border-bottom: 1px solid #ffa50094;
->>>>>>> 10da906 (updated-website)
-}
-
-.container {
-  width: 90%;
-  margin: 0 auto;
-  padding: 100px 0;
-  border-radius: 10px;
-<<<<<<< HEAD
-  backdrop-filter: blur(4px);
-  background: rgba(0, 0, 0, 0.575);
->>>>>>> 930852e (updated website)
-=======
-  backdrop-filter: blur(7px);
-  position: relative;
-  background: rgba(0, 0, 0, 0.8);
->>>>>>> 10da906 (updated-website)
 }
 
 .container h1 {
@@ -317,47 +147,15 @@ header {
   font-style: oblique;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.cta {
-  color: gainsboro;
-  text-decoration: none;
-  border: 2px solid gainsboro;
-  padding: 10px 20px;
-  line-height: 5;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out;
-}
-
->>>>>>> 930852e (updated website)
-=======
->>>>>>> 10da906 (updated-website)
 .what_we_do {
   height: auto;
 }
 
 .what_we_do_intro {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 10da906 (updated-website)
   color: white;
   text-align: center;
   padding: 50px;
   opacity: 0;
-<<<<<<< HEAD
-=======
-  color: black;
-  margin: 20px auto;
-<<<<<<< HEAD
->>>>>>> 930852e (updated website)
-=======
-  text-align: center;
-  padding: 50px;
->>>>>>> 4bd0d08 (contact page)
-=======
->>>>>>> 10da906 (updated-website)
   p {
     font-size: 1.2rem;
     margin-bottom: 20px;
@@ -367,10 +165,6 @@ header {
   h2 {
     font-size: 2rem;
     font-weight: bold;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 10da906 (updated-website)
     color: orange;
   }
 }
@@ -389,43 +183,17 @@ header {
   100% {
     transform: translateY(0);
     color: white;
-<<<<<<< HEAD
-=======
->>>>>>> 930852e (updated website)
-=======
->>>>>>> 10da906 (updated-website)
   }
 }
 
 .what_we_do .service {
-<<<<<<< HEAD
-<<<<<<< HEAD
   height: 300px;
   width: 350px;
-<<<<<<< HEAD
   padding: 10px 20px;
   border-radius: 10px;
   transition: transform 0.3s ease-in-out;
   backdrop-filter: blur(7px);
   background: rgba(0, 0, 0, 0.8);
-=======
-  height: 50%;
-=======
-  height: 300px;
->>>>>>> a23e5f4 (updated website)
-  width: 28%;
-=======
->>>>>>> 4bd0d08 (contact page)
-  padding: 10px 20px;
-  border-radius: 10px;
-  transition: transform 0.3s ease-in-out;
-<<<<<<< HEAD
-  background-color: rgba(0, 0, 0, 0.548);
->>>>>>> 930852e (updated website)
-=======
-  backdrop-filter: blur(7px);
-  background: rgba(0, 0, 0, 0.8);
->>>>>>> 10da906 (updated-website)
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,10 +201,6 @@ header {
   color: white;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 10da906 (updated-website)
 .slideIn {
   animation: slideIn 1 1s linear;
 }
@@ -461,39 +225,15 @@ header {
   }
 }
 
-<<<<<<< HEAD
 .what_we_do .service img {
   width: 40%;
-=======
-=======
->>>>>>> 10da906 (updated-website)
-.what_we_do .service img {
-<<<<<<< HEAD
-  width: 50%;
-  height: 50%;
->>>>>>> 930852e (updated website)
-=======
-  width: 40%;
->>>>>>> 2df96a5 (updated-website)
   height: auto;
 }
 
 .what_we_do .service h3 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2df96a5 (updated-website)
   font-size: 1.7rem;
   font-weight: 500;
   color: orange;
-=======
-  font-size: 2rem;
-  font-weight: 500;
-<<<<<<< HEAD
->>>>>>> 930852e (updated website)
-=======
-  color: orange;
->>>>>>> 10da906 (updated-website)
 }
 
 .what_we_do .service p {
@@ -505,114 +245,46 @@ header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 4bd0d08 (contact page)
   width: 100%;
   gap: 20px;
   padding: 20px;
   height: auto;
   margin-bottom: 150px;
-<<<<<<< HEAD
-=======
-  padding: 20px;
-  height: auto;
->>>>>>> 930852e (updated website)
-=======
->>>>>>> 10da906 (updated-website)
 }
 
 .our_team {
   width: 100%;
   height: auto;
   margin: 20px auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   padding: 50px;
-=======
-  flex-wrap: wrap;
->>>>>>> a23e5f4 (updated website)
-=======
-  padding: 50px;
-<<<<<<< HEAD
-
->>>>>>> 4bd0d08 (contact page)
-=======
->>>>>>> 10da906 (updated-website)
   h2 {
     font-size: 2rem;
     font-weight: bold;
     color: orange;
-<<<<<<< HEAD
-=======
-  h2 {
-    font-size: 2rem;
-    font-weight: bold;
->>>>>>> 930852e (updated website)
-=======
->>>>>>> 10da906 (updated-website)
   }
   .team_cards {
     display: flex;
     justify-content: space-around;
     align-items: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
     flex-wrap: wrap;
     text-align: center;
     gap: 35px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    background: rgba(0, 0, 0, 0.199);
->>>>>>> 88aa086 (slider)
-=======
->>>>>>> ee21eea (media query)
     padding: 20px;
     border-radius: 10px;
   }
   p {
     font-size: 1.2rem;
     color: white;
-<<<<<<< HEAD
-=======
-=======
-    flex-wrap: wrap;
-    gap: 35px;
-<<<<<<< HEAD
->>>>>>> a23e5f4 (updated website)
-=======
-    background: rgba(0, 0, 0, 0.199);
-    padding: 20px 0;
-    border-radius: 10px;
->>>>>>> 4bd0d08 (contact page)
-  }
-  p {
-    font-size: 1.2rem;
-    margin-bottom: 45px;
->>>>>>> 930852e (updated website)
-=======
->>>>>>> 10da906 (updated-website)
   }
 }
 
 .team_member {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> ee21eea (media query)
   width: 250px;
   height: 250px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
   backdrop-filter: blur(7px);
   background: rgba(0, 0, 0, 0.8);
   color: white;
@@ -621,80 +293,11 @@ header {
   div {
     width: 50%;
     height: 50%;
-=======
-  width: 100px;
-  height: 100px;
-  div {
-    width: 100%;
-    height: 100%;
->>>>>>> 930852e (updated website)
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 100%;
-<<<<<<< HEAD
     box-shadow: inset 0px -70px 46px -52px black;
-  }
-}
-
-.what_our_users_says_section {
-  height: auto;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  transition: 0.4s linear;
-  overflow: hidden;
-  backdrop-filter: blur(7px);
-  background: rgba(0, 0, 0, 0.8);
-  border-bottom: 1px solid #ffa50094;
-  h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 50px;
-    position: absolute;
-    z-index: 1;
-    top: -5%;
-    color: orange;
-=======
->>>>>>> 930852e (updated website)
-=======
-  width: 200px;
-  height: 200px;
-=======
-  width: 400px;
-  height: 300px;
->>>>>>> 4bd0d08 (contact page)
-=======
-  background: rgba(0, 0, 0, 0.199);
-=======
-  backdrop-filter: blur(7px);
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
->>>>>>> 10da906 (updated-website)
-  border-radius: 10px;
-
->>>>>>> ee21eea (media query)
-  div {
-    width: 50%;
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-<<<<<<< HEAD
-    border-radius: 10px;
-    box-shadow: inset 0px -118px 46px -52px black;
-    color: white;
-    text-shadow: 3px -1px black;
->>>>>>> a23e5f4 (updated website)
-=======
-    border-radius: 100%;
-    box-shadow: inset 0px -70px 46px -52px black;
->>>>>>> ee21eea (media query)
   }
 }
 
@@ -725,19 +328,10 @@ header {
 }
 
 .what_our_users_says {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  width: 100%;
->>>>>>> 930852e (updated website)
-=======
->>>>>>> 88aa086 (slider)
   height: 500px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
   flex-wrap: nowrap;
   overflow-x: hidden;
   position: relative;
@@ -801,84 +395,6 @@ header {
     height: 15%;
     text-align: center;
   }
-=======
-  background-color: rgba(0, 0, 0, 0.418);
-=======
->>>>>>> 10da906 (updated-website)
-  flex-wrap: nowrap;
-  overflow-x: hidden;
-  position: relative;
-}
-
-.user_img {
-  width: 120px;
-  height: 120px;
-  .slider_img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 85%;
-    height: 85%;
-    border-radius: 100%;
-    background-position: center;
-    box-shadow: inset 0px -60px 46px -40px black;
-  }
-}
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-.user_img img {
-  width: 100%;
-  height: 100%;
-  border-radius: 100%;
->>>>>>> 930852e (updated website)
-=======
-=======
-.user_comment_holder {
-  width: 100%;
-  flex-shrink: 0;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  backdrop-filter: blur(7px);
-  background: rgba(0, 0, 0, 0.8);
-}
-
-.user_comment_card {
-  width: 50%;
-  height: 60%;
-  background-color: white;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  flex-shrink: 0;
-
-  p {
-    width: 70%;
-    padding-right: 20px;
-  }
-}
-
->>>>>>> 88aa086 (slider)
-.user_img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  img {
-    width: 85%;
-    height: 85%;
-    border-radius: 100%;
-  }
-  h3 {
-    width: 100%;
-    height: 15%;
-    text-align: center;
-  }
->>>>>>> a23e5f4 (updated website)
 }
 
 .quote_top,
@@ -902,74 +418,31 @@ header {
 }
 
 .content {
-<<<<<<< HEAD
-<<<<<<< HEAD
   width: 500%;
   height: 100%;
   display: flex;
   justify-content: space-between;
-<<<<<<< HEAD
   align-items: center;
   flex-wrap: nowrap;
   transition: 0.5s linear;
-=======
-  width: 100%;
-=======
-  width: 500%;
->>>>>>> 88aa086 (slider)
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-=======
->>>>>>> c60fe74 (media-query)
-  align-items: center;
-<<<<<<< HEAD
-  flex-shrink: 0;
->>>>>>> 930852e (updated website)
-=======
-  flex-wrap: nowrap;
-<<<<<<< HEAD
-  transition: 1s linear;
->>>>>>> 88aa086 (slider)
-=======
-  transition: 0.5s linear;
->>>>>>> c60fe74 (media-query)
 }
 
 .slide_left,
 .slide_right {
   position: absolute;
   font-weight: bold;
-<<<<<<< HEAD
-<<<<<<< HEAD
   bottom: 35%;
   font-size: 2em;
-=======
-  font-size: 2em;
-  transition: opacity 0.5s ease-in-out;
->>>>>>> 930852e (updated website)
-=======
-  bottom: 35%;
-  font-size: 2em;
->>>>>>> 88aa086 (slider)
   background-color: rgba(0, 0, 0, 0.164);
   color: white;
   padding: 10px;
   border-radius: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 0739996 (updated website)
   width: 60px;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 88aa086 (slider)
   &:hover {
     border: 0.5px solid;
     scale: 1.1;
@@ -989,17 +462,8 @@ header {
 }
 
 .footer {
-<<<<<<< HEAD
-<<<<<<< HEAD
   backdrop-filter: blur(7px);
   background: rgba(0, 0, 0, 0.8);
-=======
-  background: #222;
->>>>>>> 4bd0d08 (contact page)
-=======
-  backdrop-filter: blur(7px);
-  background: rgba(0, 0, 0, 0.8);
->>>>>>> 10da906 (updated-website)
   color: #fff;
   padding: 80px 0;
   text-align: center;
@@ -1061,41 +525,10 @@ header {
   border-top: 1px solid #444;
   padding-top: 10px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 10da906 (updated-website)
 
 .footer-logo h2,
 .footer-links h3,
 .footer-contact h3,
 .footer-social h3 {
   color: orange;
-<<<<<<< HEAD
-=======
-=======
-  transition: 0.2s linear;
-  &:hover {
-    border: 2px solid;
-    scale: 1.2;
-  }
->>>>>>> 0739996 (updated website)
 }
-
-.slide_left {
-  left: 2%;
-}
-
-.slide_right {
-<<<<<<< HEAD
-  right: 0;
->>>>>>> 930852e (updated website)
-=======
-  right: 2%;
->>>>>>> 0739996 (updated website)
-}
-=======
->>>>>>> 4bd0d08 (contact page)
-=======
-}
->>>>>>> 10da906 (updated-website)

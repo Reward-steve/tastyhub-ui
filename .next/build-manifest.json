@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "pages": {
     "/_app": [
       "static/chunks/[root of the server]__3a40d6d2._.js",
@@ -35,5 +36,24 @@
     "static/chunks/_e69f0d32._.js",
     "static/chunks/_be317ff2._.js"
   ],
+=======
+  "polyfillFiles": [
+    "static/chunks/polyfills.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/main-app.js"
+  ],
+  "rootMainFilesTree": {},
+  "pages": {
+    "/_app": []
+  },
+>>>>>>> main
   "ampFirstPages": []
 }
