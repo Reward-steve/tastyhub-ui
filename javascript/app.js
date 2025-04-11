@@ -93,10 +93,12 @@ const createTeamCard = ourCookingTeam.map((el) => {
 >>>>>>> 930852e (updated website)
 =======
   <div style="background-image:url(${el.img})" >
-   <h3>${el.name}</h3>
-   <p>${el.role}</p>
   </div>
+<<<<<<< HEAD
 >>>>>>> a23e5f4 (updated website)
+=======
+  <p style="width:100%">${el.role}</p>
+>>>>>>> ee21eea (media query)
   </div>
   `;
 });
@@ -230,10 +232,10 @@ const handleDropdown = () => {
   isDisplayed
     ? (dropdown.classList.add("cancle"),
       (dropdown.style.position = "fixed"),
-      (nav.style.display = "flex"))
+      (nav.style.opacity = "1"))
     : (dropdown.classList.remove("cancle"),
       (dropdown.style.position = "absolute"),
-      (nav.style.display = "none"));
+      (nav.style.opacity = "0"));
 };
 
 dropdown.addEventListener("click", handleDropdown);
