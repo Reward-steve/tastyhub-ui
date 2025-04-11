@@ -52,4 +52,9 @@ export const ourCookingTeam = [
     name: "Chef MNO",
     role: "Master Chef",
   },
+  {
+    img: "asset/teamImages/1.jpg",
+    name: "Chef MNO",
+    role: "Master Chef",
+  },
 ];

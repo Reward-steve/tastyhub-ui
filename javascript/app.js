@@ -24,10 +24,14 @@ const createServiceCard = mapServices.map((el) => {
   return `
     <div class="service">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <img src=${el.img} loading="lazy" alt="service_${el.img}" />
 =======
     <img src=${el.img} alt="service_${el.img}" />
 >>>>>>> 930852e (updated website)
+=======
+    <img src=${el.img} loading="lazy" alt="service_${el.img}" />
+>>>>>>> a23e5f4 (updated website)
     <h3>${el.title}</h3>
     <p>${el.description}</p>
     </div>`;
@@ -66,6 +70,7 @@ const createTeamCard = ourCookingTeam.map((el) => {
   return `
   <div class="team_member">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <div style="background-image:url(${el.Img})" >
   </div>
   <p style="width:100%">${el.Name}</p>
@@ -75,6 +80,12 @@ const createTeamCard = ourCookingTeam.map((el) => {
   <h3>${el.name}</h3>
   <p>${el.role}</p>
 >>>>>>> 930852e (updated website)
+=======
+  <div style="background-image:url(${el.img})" >
+   <h3>${el.name}</h3>
+   <p>${el.role}</p>
+  </div>
+>>>>>>> a23e5f4 (updated website)
   </div>
   `;
 });
@@ -156,20 +167,18 @@ for (let i = 0; i < ourCookingTeam.length; i++) {
 const createsliderCard = what_our_users_say.map((el) => {
   return `
 <div class="content">
-        <div class="user_comment_card">
+      <div class="user_comment_card">
           <div class="quote_top">‟</div>
-
           <div class="user_img">
-            <img src=${el.img} alt=${el.userName} />
+            <img src=${el.img} loading="lazy" alt=${el.userName} />
+            <h3>${el.userName}</h3>
           </div>
-          <h3>${el.userName}</h3>
           <p>
           ${el.message}
           </p>
-
-          <div class="quote_bottom">„</div>
-        </div>
-      </div> 
+      <div class="quote_bottom">„</div>
+  </div>
+</div> 
   `;
 });
 

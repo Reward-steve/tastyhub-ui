@@ -14,5 +14,10 @@
   text-decoration: none;
   scrollbar-width: thin;
   scroll-behavior: smooth;
+<<<<<<< HEAD
 >>>>>>> 930852e (updated website)
+=======
+  scroll-snap-type: inline;
+  scroll-snap-align: center;
+>>>>>>> a23e5f4 (updated website)
 }
