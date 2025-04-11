@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mapServices, ourCookingTeam, what_our_users_say } from "./data.js";
 
 const service = document.querySelector(".what_we_do_cards");
@@ -10,6 +11,9 @@ const dropdownLine = document.querySelector(".line");
 =======
 import { mapServices, ourCookingTeam } from "./services.js";
 import { what_our_users_say, what_we_do_cards } from "./servicesList.js";
+=======
+import { mapServices, ourCookingTeam, what_our_users_say } from "./data.js";
+>>>>>>> 10da906 (updated-website)
 
 const service = document.querySelector(".what_we_do_cards");
 const team = document.querySelector(".team_cards");
@@ -21,10 +25,13 @@ const users = document.querySelector(".what_our_users_says");
 >>>>>>> 0739996 (updated website)
 =======
 const content = document.querySelector(".content");
+<<<<<<< HEAD
 const user = document.querySelector(".what_our_users_says");
 <<<<<<< HEAD
 >>>>>>> 88aa086 (slider)
 =======
+=======
+>>>>>>> 10da906 (updated-website)
 const nav = document.querySelector("nav ul");
 const dropdown = document.querySelector(".dropdown");
 const dropdownLine = document.querySelector(".line");
@@ -48,6 +55,9 @@ const createServiceCard = mapServices.map((el) => {
     </div>`;
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 10da906 (updated-website)
 
 service.innerHTML = createServiceCard.join("");
 
@@ -72,10 +82,13 @@ const createsliderCard = what_our_users_say.map((el) => {
 
 content.innerHTML = createsliderCard.join("");
 
+<<<<<<< HEAD
 =======
 service.innerHTML = createServiceCard.join("");
 
 >>>>>>> 930852e (updated website)
+=======
+>>>>>>> 10da906 (updated-website)
 // Cooking Team
 const createTeamCard = ourCookingTeam.map((el) => {
   return `
@@ -183,6 +196,7 @@ for (let i = 0; i < ourCookingTeam.length; i++) {
 >>>>>>> 930852e (updated website)
 =======
 
+<<<<<<< HEAD
 // What our users say
 const createsliderCard = what_our_users_say.map((el) => {
   return `
@@ -214,6 +228,9 @@ ${createsliderCard.join("")}
 content.innerHTML = createsliderCard.join("");
 >>>>>>> c60fe74 (media-query)
 
+=======
+//Review Carosel
+>>>>>>> 10da906 (updated-website)
 let num = 0;
 document.addEventListener("click", (e) => {
   if (e.target.className === "slide_right") {
@@ -233,6 +250,7 @@ document.addEventListener("click", (e) => {
 >>>>>>> 88aa086 (slider)
 =======
 
+//Hamburger dropdown
 let isDisplayed = false;
 const handleDropdown = () => {
   isDisplayed = !isDisplayed;
@@ -249,4 +267,38 @@ const handleDropdown = () => {
 
 dropdown.addEventListener("click", handleDropdown);
 dropdownLine.addEventListener("click", handleDropdown);
+<<<<<<< HEAD
 >>>>>>> c60fe74 (media-query)
+=======
+
+//intersection observer.
+const h1 = document.querySelector(".what_we_do_intro");
+const ourTeamh2p = document.querySelector(".our_team");
+const serviceCard = document.querySelectorAll(".what_we_do .service");
+const teamMembers = document.querySelectorAll(".team_member");
+
+const observer1 = new IntersectionObserver((e) => {
+  let element = e[0];
+  element.isIntersecting
+    ? element.target.classList.add("fadeIn")
+    : element.target.classList.remove("fadeIn");
+});
+
+observer1.observe(h1);
+observer1.observe(ourTeamh2p);
+
+const observer2 = new IntersectionObserver((e) => {
+  let element = e[0];
+
+  element.intersectionRatio >= 0.001
+    ? element.target.classList.add("slideIn")
+    : element.target.classList.remove("slideIn");
+});
+
+for (let i = 0; i < serviceCard.length; i++) {
+  observer2.observe(serviceCard[i]);
+}
+for (let i = 0; i < ourCookingTeam.length; i++) {
+  observer2.observe(teamMembers[i]);
+}
+>>>>>>> 10da906 (updated-website)
