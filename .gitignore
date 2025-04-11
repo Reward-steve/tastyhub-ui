@@ -21,9 +21,4 @@ build/
 # Production
 .env
 
-# Images (if not necessary)
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
+ 
