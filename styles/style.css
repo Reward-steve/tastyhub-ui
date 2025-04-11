@@ -23,11 +23,14 @@ body {
 =======
   background-color: gainsboro;
 <<<<<<< HEAD
+<<<<<<< HEAD
   padding: 5px 30px;
 >>>>>>> 930852e (updated website)
 =======
   /* padding: 5px 30px; */
 >>>>>>> 4bd0d08 (contact page)
+=======
+>>>>>>> c60fe74 (media-query)
 }
 
 nav {
@@ -105,6 +108,23 @@ nav #logo {
   transition: 0.4s linear;
   color: black;
   border: none;
+}
+
+.dropdown {
+  width: 40px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+.line {
+  width: 80%;
+  height: 15%;
+  background: black;
+  border-radius: 10px;
+  transition: 1s;
 }
 
 nav ul {
@@ -592,6 +612,7 @@ header {
   flex-direction: column;
   position: relative;
   transition: 0.4s linear;
+  overflow: hidden;
   h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -680,7 +701,7 @@ header {
 =======
   background-color: rgba(0, 0, 0, 0.418);
   flex-wrap: nowrap;
-  overflow-x: scroll;
+  overflow-x: hidden;
   position: relative;
 }
 
@@ -770,6 +791,7 @@ header {
   height: 100%;
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   align-items: center;
   flex-wrap: nowrap;
   transition: 0.5s linear;
@@ -781,14 +803,20 @@ header {
   height: 100%;
   display: flex;
   justify-content: space-around;
+=======
+>>>>>>> c60fe74 (media-query)
   align-items: center;
 <<<<<<< HEAD
   flex-shrink: 0;
 >>>>>>> 930852e (updated website)
 =======
   flex-wrap: nowrap;
+<<<<<<< HEAD
   transition: 1s linear;
 >>>>>>> 88aa086 (slider)
+=======
+  transition: 0.5s linear;
+>>>>>>> c60fe74 (media-query)
 }
 
 .slide_left,
