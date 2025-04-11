@@ -548,7 +548,7 @@ header {
   background-color: rgba(0, 0, 0, 0.418);
   border-radius: 10px;
   flex-wrap: nowrap;
-  overflow-x: hidden;
+  overflow-x: scroll;
   position: relative;
   .user_comment_card {
     width: 50%;
@@ -633,12 +633,16 @@ header {
   padding: 10px;
   border-radius: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 0739996 (updated website)
   width: 60px;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+<<<<<<< HEAD
   &:hover {
     border: 0.5px solid;
     scale: 1.1;
@@ -728,13 +732,24 @@ header {
 .footer-social h3 {
   color: orange;
 =======
+=======
+  transition: 0.2s linear;
+  &:hover {
+    border: 2px solid;
+    scale: 1.2;
+  }
+>>>>>>> 0739996 (updated website)
 }
 
 .slide_left {
-  left: 0;
+  left: 2%;
 }
 
 .slide_right {
+<<<<<<< HEAD
   right: 0;
 >>>>>>> 930852e (updated website)
+=======
+  right: 2%;
+>>>>>>> 0739996 (updated website)
 }

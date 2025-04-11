@@ -9,9 +9,15 @@ const dropdown = document.querySelector(".dropdown");
 const dropdownLine = document.querySelector(".line");
 =======
 import { mapServices, ourCookingTeam } from "./services.js";
+import { what_our_users_say, what_we_do_cards } from "./servicesList.js";
+
 const service = document.querySelector(".what_we_do_cards");
 const team = document.querySelector(".team_cards");
+<<<<<<< HEAD
 >>>>>>> 930852e (updated website)
+=======
+const users = document.querySelector(".what_our_users_says");
+>>>>>>> 0739996 (updated website)
 
 //What we do
 const createServiceCard = mapServices.map((el) => {
@@ -74,6 +80,7 @@ const createTeamCard = ourCookingTeam.map((el) => {
 });
 
 team.innerHTML = createTeamCard.join("");
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 //Review Carosel
@@ -143,3 +150,31 @@ for (let i = 0; i < ourCookingTeam.length; i++) {
 }
 =======
 >>>>>>> 930852e (updated website)
+=======
+
+// What our users say
+const createsliderCard = what_our_users_say.map((el) => {
+  return `
+<div class="content">
+        <div class="user_comment_card">
+          <div class="quote_top">‟</div>
+
+          <div class="user_img">
+            <img src=${el.img} alt=${el.userName} />
+          </div>
+          <h3>${el.userName}</h3>
+          <p>
+          ${el.message}
+          </p>
+
+          <div class="quote_bottom">„</div>
+        </div>
+      </div> 
+  `;
+});
+
+users.innerHTML = `
+<div class="slide_left">←</div>
+${createsliderCard.join("")}     
+<div class="slide_right">→</div>`;
+>>>>>>> 0739996 (updated website)
