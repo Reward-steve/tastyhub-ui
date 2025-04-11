@@ -100,11 +100,18 @@ nav #logo {
 =======
 }
 
+.cta:hover {
+  background: orange;
+  transition: 0.4s linear;
+  color: black;
+  border: none;
+}
+
 nav ul {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -168,9 +175,11 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0 0 5px 5px;
 
     &:hover {
       cursor: pointer;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       background-color: rgba(0, 0, 0, 0.473);
@@ -185,6 +194,11 @@ nav ul li {
 
       transition: border-bottom 0.3s ease-in-out;
 >>>>>>> 4bd0d08 (contact page)
+=======
+      transform: translateY(-10px);
+      box-shadow: 0px 36px 50px -18px;
+      transition: 0.4s linear;
+>>>>>>> 88aa086 (slider)
     }
   }
 }
@@ -456,6 +470,10 @@ header {
     flex-wrap: wrap;
     text-align: center;
     gap: 35px;
+<<<<<<< HEAD
+=======
+    background: rgba(0, 0, 0, 0.199);
+>>>>>>> 88aa086 (slider)
     padding: 20px;
     border-radius: 10px;
   }
@@ -572,6 +590,8 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
+  transition: 0.4s linear;
   h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -583,9 +603,12 @@ header {
 
 .what_our_users_says {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   width: 100%;
 >>>>>>> 930852e (updated website)
+=======
+>>>>>>> 88aa086 (slider)
   height: 500px;
   display: flex;
   justify-content: space-evenly;
@@ -659,27 +682,14 @@ header {
   flex-wrap: nowrap;
   overflow-x: scroll;
   position: relative;
-  .user_comment_card {
-    width: 50%;
-    height: 60%;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    flex-shrink: 0;
-    p {
-      width: 70%;
-      padding-right: 20px;
-    }
-  }
 }
+
 .user_img {
   width: 120px;
   height: 120px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .user_img img {
   width: 100%;
@@ -687,6 +697,34 @@ header {
   border-radius: 100%;
 >>>>>>> 930852e (updated website)
 =======
+=======
+.user_comment_holder {
+  width: 100%;
+  flex-shrink: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_comment_card {
+  width: 50%;
+  height: 60%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-shrink: 0;
+
+  p {
+    width: 70%;
+    padding-right: 20px;
+  }
+}
+
+>>>>>>> 88aa086 (slider)
 .user_img {
   display: flex;
   justify-content: center;
@@ -727,6 +765,7 @@ header {
 
 .content {
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 500%;
   height: 100%;
   display: flex;
@@ -736,12 +775,20 @@ header {
   transition: 0.5s linear;
 =======
   width: 100%;
+=======
+  width: 500%;
+>>>>>>> 88aa086 (slider)
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+<<<<<<< HEAD
   flex-shrink: 0;
 >>>>>>> 930852e (updated website)
+=======
+  flex-wrap: nowrap;
+  transition: 1s linear;
+>>>>>>> 88aa086 (slider)
 }
 
 .slide_left,
@@ -749,12 +796,17 @@ header {
   position: absolute;
   font-weight: bold;
 <<<<<<< HEAD
+<<<<<<< HEAD
   bottom: 35%;
   font-size: 2em;
 =======
   font-size: 2em;
   transition: opacity 0.5s ease-in-out;
 >>>>>>> 930852e (updated website)
+=======
+  bottom: 35%;
+  font-size: 2em;
+>>>>>>> 88aa086 (slider)
   background-color: rgba(0, 0, 0, 0.164);
   color: white;
   padding: 10px;
@@ -770,6 +822,9 @@ header {
   align-items: center;
   cursor: pointer;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 88aa086 (slider)
   &:hover {
     border: 0.5px solid;
     scale: 1.1;

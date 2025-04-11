@@ -97,13 +97,12 @@
       }
 
       .contact-form-container {
-        width: 100%;
-        max-width: 600px;
+        width: 90%;
         border: none;
         padding: 20px;
         font-size: 16px;
         background: #00000085;
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(7px);
         border-radius: 10px;
       }
 
@@ -135,14 +134,27 @@
       textarea {
         width: 96%;
         padding: 8px;
-        border: 2px solid #ddd;
         border-radius: 4px;
         font-size: 16px;
+        outline: 1px solid gray;
         background: #00000085;
+        border: none;
+        transition: 0.4s linear;
+      }
+
+      input:focus,
+      textarea:focus {
+        outline: 1px solid orange;
+      }
+
+      button:hover {
+        background: orange;
+        transition: 0.4s linear;
+        color: black;
       }
 
       button {
-        background-color: #4caf50;
+        background-color: gray;
         color: white;
         padding: 10px 20px;
         border: none;
@@ -150,10 +162,6 @@
         cursor: pointer;
         margin-top: 20px;
         display: inline-block;
-      }
-
-      .button:hover {
-        background-color: #45a049;
       }
 
       form label {
