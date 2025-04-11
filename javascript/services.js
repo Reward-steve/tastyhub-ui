@@ -18,36 +18,43 @@ export const mapServices = [
 
 export const ourCookingTeam = [
   {
-    img: "asset/teamImages/chef-1.jpg",
-    role: "Master Chef",
+    Img: "asset/teamImages/chef-1.jpg",
+    Name: "Mary Christopher",
+    Role: "Food preparation",
   },
 
   {
-    img: "asset/teamImages/chef-2.jpeg",
-    role: "Assistant Chef",
+    Img: "asset/teamImages/chef-2.jpeg",
+    Name: "Robato Chalos",
+    Role: "Food Designer",
   },
 
   {
-    img: "asset/teamImages/chef-3.jpg",
-    role: "Head Chef",
+    Img: "asset/teamImages/chef-3.jpg",
+    Name: "Charlse Willson",
+    Role: "Operations Manager",
   },
 
   {
-    img: "asset/teamImages/chef-4.jpg",
-    role: "Head Chef",
+    Img: "asset/teamImages/chef-4.jpg",
+    Name: "Chef Lee",
+    Role: "Waiter/Delivery Driver",
   },
 
   {
-    img: "asset/teamImages/chef-5.jpg",
-    role: "Assistant Chef",
+    Img: "asset/teamImages/chef-5.jpg",
+    Name: "Jayme Lamister",
+    Role: "Main business manager ",
   },
 
   {
-    img: "asset/teamImages/chef-6.jpeg",
-    role: "Master Chef",
+    Img: "asset/teamImages/chef-6.jpeg",
+    Name: "Emmilia Clark",
+    Role: "Operations Manager",
   },
   {
-    img: "asset/teamImages/1.jpg",
-    role: "Master Chef",
+    Img: "asset/teamImages/1.jpg",
+    Name: "Elder Stack",
+    Role: "Menu management",
   },
 ];
