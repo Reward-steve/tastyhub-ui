@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { mapServices, ourCookingTeam, what_our_users_say } from "./data.js";
 
 const service = document.querySelector(".what_we_do_cards");
@@ -6,16 +7,26 @@ const content = document.querySelector(".content");
 const nav = document.querySelector("nav ul");
 const dropdown = document.querySelector(".dropdown");
 const dropdownLine = document.querySelector(".line");
+=======
+import { mapServices, ourCookingTeam } from "./services.js";
+const service = document.querySelector(".what_we_do_cards");
+const team = document.querySelector(".team_cards");
+>>>>>>> 930852e (updated website)
 
 //What we do
 const createServiceCard = mapServices.map((el) => {
   return `
     <div class="service">
+<<<<<<< HEAD
     <img src=${el.img} loading="lazy" alt="service_${el.img}" />
+=======
+    <img src=${el.img} alt="service_${el.img}" />
+>>>>>>> 930852e (updated website)
     <h3>${el.title}</h3>
     <p>${el.description}</p>
     </div>`;
 });
+<<<<<<< HEAD
 
 service.innerHTML = createServiceCard.join("");
 
@@ -40,19 +51,30 @@ const createsliderCard = what_our_users_say.map((el) => {
 
 content.innerHTML = createsliderCard.join("");
 
+=======
+service.innerHTML = createServiceCard.join("");
+
+>>>>>>> 930852e (updated website)
 // Cooking Team
 const createTeamCard = ourCookingTeam.map((el) => {
   return `
   <div class="team_member">
+<<<<<<< HEAD
   <div style="background-image:url(${el.Img})" >
   </div>
   <p style="width:100%">${el.Name}</p>
   <p style="width:100%">${el.Role}</p>
+=======
+  <div style="background-image:url(${el.img})" ></div>
+  <h3>${el.name}</h3>
+  <p>${el.role}</p>
+>>>>>>> 930852e (updated website)
   </div>
   `;
 });
 
 team.innerHTML = createTeamCard.join("");
+<<<<<<< HEAD
 
 //Review Carosel
 let num = 0;
@@ -119,3 +141,5 @@ for (let i = 0; i < serviceCard.length; i++) {
 for (let i = 0; i < ourCookingTeam.length; i++) {
   observer2.observe(teamMembers[i]);
 }
+=======
+>>>>>>> 930852e (updated website)
